@@ -1,0 +1,125 @@
+.top{background-color:#0099CC;display:block;height:270px;position:relative;}
+#txt1{-webkit-border-radius:5px;height:15px;float:right;margin-right:25px;margin-top:10px;background:#EEE;}
+.ball{float:left;top:20px;position:absolute;height:15px;width:15px;background:#D1D1D1;border-radius:50%;-webkit-border-radius:50%;-ms-border-radius:50%;left:40%;animation:transform 3s;-moz-animation:transform 3s;-ms-animation:transform 3s;-o-animation:transform 3s;-webkit-animation:transform 3s;-webkit-animation-fill-mode:forwards;}@keyframes transform{40%{top:170px;background:#fff;opacity:0.5}50%{top:150px;opacity:0.7;}55%{height:100px;width:100px;background:#0099CC;opcity:0.5;box-shadow:0 0 0 8px rgba(255,255,255,0.3);background:#0099CC;opcity:0.8;left:47%;height:90px;width:90px;box-shadow:0 0 0 4px rgba(255,255,255,0.7);}100%{top:70px;left:47%;height:150px;width:150px;background:#0099CC;opcity:1;box-shadow:0 0 0 4px rgba(255,255,255,1);}} @-webkit-keyframes transform{40%{top:170px;background:#fff;opacity:0.5}50%{top:130px;opacity:0.7;}55%{background:#0099CC;opacity:0.5;box-shadow:0 0 0 8px rgba(255,255,255,0.3);background:#0099CC;opcity:0.8;left:43%;height:90px;width:90px;box-shadow:0 0 0 4px rgba(255,255,255,0.7);}100%{top:70px;left:42%;height:150px;width:150px;background:#0099CC;opacity:1;box-shadow:0 0 0 4px rgba(255,255,255,1);}}
+
+.topFont {
+float:left;font-family:"Lucida Console", Monaco, monospace;font-size:32px;font-weight:300;
+position:relative;
+left:39%;margin-top:119px;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  opacity:0;
+	-webkit-animation: scale-up 3s forwards 2s;
+  -moz-animation: scale-up 3s forwards 2s;
+  animation: scale-up 3s forwards 2s;
+}
+
+@-webkit-keyframes scale-up {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+@-moz-keyframes scale-up {
+ 0% {
+    -webkit-transform: scale(1);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-up {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+ 
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.navTop{font-family:"微软雅黑";font-weight:200;position:relative;display:block;height:30px;margin:1em 25em;}.navTop ul{list-style-type:none;}.navTop ul li{position:relative;display:inline;margin-left:50px;color:#141414;}.navTop ul li a::after{content:'';opacity:0;top:100%;width:100%;left:0;height:4px;background:#007CF9;position:absolute;-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);}.navTop li a{text-decoration:none;color:#141414;}.navTop ul li a:hover{color:#0099CC;cursor:pointer;}.navTop ul li a:hover::after,.f a:focus::after{opacity:1;transform:translateY(5px);-moz-transform:translateY(5px);-webkit-transform:translateY(5px);}
+.button{height:25px;width:330px;border-radius:7px;border:#048 2px solid;background:#1685FE;font-family:"Lucida Console", Monaco, monospace;color:#fff;position:relative;float:left;margin-top:10px;}.button:hover{cursor:pointer;animation:changeColor 2s;-webkit-animation:changeColor 2s;}
+@keyframes changeColor{20%{background:#026de2;opacity:0.6;}100%{background:#026de2;opacity:1;}} @-webkit-keyframes changeColor{20%{background:026de2;opacity:0.6;}100%{background:#026de2;opacity:1;}}
+.show{margin:3em 12em;;position:relative;padding:0px;}
+.showL{float:left;position:relative;margin-top:2em;display:inline-block;height:1000px;}
+.showL1{padding-top:3em;}    /*为什么要3em才可以*/
+.showR{float:right;position:relative;margin-top:2em;display:inline-block;height:1000px;}
+.showR2{padding-top:3em;}    /*为什么要3em才可以*/
+
+.article{height:360px;width:330px;overflow:hidden;cursor:pointer;}
+ #articleTitle{float:left;}.head{font-family:"Lucida Console", Monaco, monospace;z-index:2;float:left;position:absolute;font-size:34px;font-weight:600;margin:3em 1.5em;}.head2{font-family:"微软雅黑";font-weight:600;font-size:18px;color:#001722;margin:9.5em 3.5em;position:absolute;float:left;z-index:2;}.quote{padding-top:50px;font-family:"微软雅黑";font-weight:500;font-size:15px;color:#55060E;float:left;position:absolute;z-index:3;display:none;white-space: pre-wrap;letter-spacing: 2px;line-height:2;opacity:1;}
+ #bottom{background:#151515;height:80px;display:block;margin-top:1050px;position:relative;}
+.img{opacity:0.7;float:left;z-index:1;-webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);text-indent: 90px;}.main:hover{-webkit-animation: bigger 2s forwards;
+  -moz-animation: bigger 2s forwards;
+  animation: bigger 2s forwards;height:360px;width:330px;overflow:hidden;}
+@-webkit-keyframes bigger {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 0.8;
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+    opacity: 0.5;
+  }
+}
+@-moz-keyframes bigger{
+ 0% {
+    -webkit-transform: scale(1);
+    opacity: 0.8;
+  }
+
+  100% {
+    -webkit-transform: scale(1.2);
+    opacity: 0.5;
+  }
+}
+@keyframes bigger {
+	 0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+
